@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,900&display=swap');
+
+/*O nome desse é estilo cadastros mas na real é estilos geral, tive preguiça de mudar*/
+/* ---------------------------------------------FONTES---------------------------------------------------------*/
+
+h1{
+    color: rgb(82, 59, 26);
+    margin: 20px;
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    display: inline;
+}
+
+/* ---------------------------------------------FORMATAÇÕES-------------------------------------------------*/
+
+label,input,select{
+    display:inline-block;
+    text-align: left;
+    width: 250px;
+    box-sizing:border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+#checkbox{
+    width: 30px;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+    box-sizing:border-box;
+    resize: none;
+}
+section{
+    background-color: rgb(177, 154, 104);
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 10px 30px 10px; 
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333); 
+}
+#observacoes {
+    height: 100px;
+}
+.dadospets{
+    text-align: left;
+}
+#labelpets,#ppets{
+    width:280px;
+    text-align: center;
+}
+#icon_cadastrar{
+    background:transparent;
+    border: transparent;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* ---------------------------------------------CLASSES-------------------------------------------------*/
+.button {
+    background-color: rgb(82, 59, 26);
+    border: none;
+    width: auto;
+    color: rgb(236, 209, 169);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+/* ---------------------------------------------FORMATACAO IMAGENS-------------------------------------------------*/
+#imgpets{
+    border-radius: 10px;
+    height: 200px;
+    width: 280px
+}
+#imgmenupet{
+    width: 50%;
+    border-radius: 10px;
+    border: 10px solid rgb(206, 186, 149);
+    float: left;
+}
+/* ---------------------------------------------FORMATACAO DIVS-------------------------------------------------*/
+.divpets{
+    float:left;
+    width: 300px;
+    text-align:center;
+    height: 350px;
+    background-color: rgb(177, 154, 104);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.664); 
+}
+/* ---------------------------------------------FORMATACAO BOTÕES-------------------------------------------------*/
+#botaocorreto{
+    width: 500px;
+    background-color: #caffbf;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333); 
+}
+#botaoaviso{
+    width: 500px;
+    background-color: #fdffb6;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333); 
+}

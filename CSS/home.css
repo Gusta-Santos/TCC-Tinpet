@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,900&display=swap');
+/* --------------------------------------------------ESSE É O CSS PRICIPAL------------------------------------------------------------------*/
+.fotohome{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 32px;
+    background-image: url(../Imagens/homefoto.jpg);
+    background-size: cover;
+}
+.fotohome2{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 32px;
+    background-color: rgba(0,0, 0,0.2);
+}
+.mensagemhome{
+    position: absolute;
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.botaohome{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-70%);
+}
+#h1fotohome{
+    color: white;
+    text-shadow: none;
+}
+#botaofotohome{
+    border: rgb(247, 243, 236);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(247, 243, 236);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333); 
+    font-size: 20px;
+    font-family: 'Shippori Mincho', serif;
+}
+#info{
+    text-align: center;
+}
+.content{
+    margin-top: 3%;
+    width: 100%;
+}
+.content1{
+    width: 48%;
+    height: 35vh;
+    float: left;
+    margin: 10px;
+}
+.content2{
+    float: left;
+    margin-left: 13vh;
+}
+.finalhome{
+    width: 100vw;
+    background-color: rgb(206, 186, 149);
+    height: 30vh;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Tinpet" content="TinPet">
+    <link rel="shortcut icon" href="../Imagens/favicon-32x32.png" type="image/x-icon">
+    <title>Home</title>
+    <!--Pegando informações do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner {
+        width: 65%;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767); 
+        border-radius: 20px;
+      }
+      .carousel-control-prev, .carousel-control-next{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+</head>
+<body>
+    <!--Nav bar-->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgb(206, 186, 149);">
+      <div class="container-fluid">
+        <img src="../Imagens/logo2new.png" width="100" height="50" style="margin-right: 15px;" class="d-inline-block align-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <img src="../Imagens/home.png" width="20" height="20" class="imagem">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../Principal/home.html">Home</a>
+            </li>
+            <img src="../Imagens/cadastro.png" width="20" height="20" class="imagem">
+            <li class="nav-item">
+              <a class="nav-link active" href="../Cadastros/Cadastro_responsavel.php">Cadastre-se</a>
+            </li>
+            <img src="../Imagens/login.png" width="20" height="20" class="imagem">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </a>
+              <ul class="dropdown-menu active" aria-labelledby="navbarDropdownMenuLink">
+                
+                <li><a class="dropdown-item"  href="../Principal/Login_resp.php">Como responsável</a></li>
+                <li><a class="dropdown-item" href="../Principal/Login_adm.php">Como administrador</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fotohome">
+    <div class="fotohome2">
+      <div class="mensagemhome">
+        <h1 id="h1fotohome">O melhor lugar para você encontrar um amor para seu pet</h1>
+        
+      </div>
+      <div class="botaohome">
+        <a href="../Cadastros/Cadastro_responsavel.php"><button id="botaofotohome">Encontre agora</button></a>
+      </div>
+    </div>
+    </div>
+    <div class="container" class="centered" id="info">
+      <figure class="logo-site">
+        <img id="icone" src="../Imagens/logo.png" width="200" height="200" alt="logo do site">
+      </figure>
+          <h1> Bem Vindo ao Tinpet! </h1>
+              
+          <!--<h3> O melhor lugar para você encontrar um amor para seu pet! </h3>-->
+          <div class="content">
+            <p> Já buscou por um parceiro para seu pet e achou que isso fosse uma missão impossível? O TinPet está aqui justamente para facilitar e te auxiliar na busca por animais compatíveis com o seu animalzinho de estimação! Além disso, incentivamos o cruzamento natural dos animais ao contrário de incentivar a compra dos mesmos por aí. Por último, mas não menos importante: adote, não compre!</p>
+          </div>
+          <div class="content1">
+          <h3> Sobre o site TinPet:</h3> 
+          <p> O site <b>TinPet</b> tem o objetivo de realizar o encontro entre diferentes donos de pet e seus respectivos animais de estimação com outros para que os mesmos realizem o cruzamento de animais. Dessa forma, auxiliaremos na busca por pretendentes para o cruzamento dos pets por meio da tecnologia e daremos auternativas diferentes da compra e venda de animais.</p>
+          </div>
+          <div class="content1" >
+          <h3> Quem somos nós?</h3>
+          <p> O site foi desenvolvido pelos alunos do terceiro ano integrado em informática do Instituto Federal de Sergipe - Campus Aracaju - Gustavo Santos Oliveira e Maria Eduarda Santos Correia.  </p>  
+          </div>
+
+
+  <!--CARDS--> 
+  <div class="content2">
+    <div class="col-sm-4">
+      <class class="card" style="width:300px">
+        <img class="card-img-top" src="../Imagens/22.jpg">
+    <div class="card-body" id="card1">
+      <h4 class="card-title">Criar Perfil de Pet</h4>
+      <p class="card-text"> Crie um perfil para cada um de seus pets com suas informações específicas! </p>
+      <a href="" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);" data-bs-toggle="modal" data-bs-target="#modalsite1">Criar Perfil</a>
+    </div>
+    </class>
+    </div>
+  </div> 
+  <div class="content2">
+    <div class="col-sm-4">
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="../Imagens/7.jpg">
+    <div class="card-body" id="card2">
+      <h4 class="card-title"> Buscar Pet</h4>
+      <p class="card-text">  Busque agora por pretendentes compatíveis com seu pet! </p>
+      <a href="" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);"  data-bs-toggle="modal" data-bs-target="#modalsite2">Buscar Pets</a>
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="content2">
+    <div class="col-sm-4">
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="../Imagens/14.jpg">
+    <div class="card-body" id="card3">
+      <h4 class="card-title"> Fale Conosco</h4>
+      <p class="card-text"> Tem alguma dúvida? Alguma sugestão? Não perca tempo e fale conosco!</p>
+      <a href="" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);"  data-bs-toggle="modal" data-bs-target="#modalsite3">Fale Conosco</a>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+ 
+  <!--MODAL-->
+  <div class="modal fade" id="modalsite1" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"> Criar Perfil de Pet</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Antes de criar um perfil para seu pet, faça seu login no TinPet!</p>
+          <img src="../Imagens/cutedog.gif">
+        </div>
+        <div class="modal-footer">
+          <a href="../Principal/Login_resp.php" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);">Fazer Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalsite2" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document" >
+      <div class="modal-content" >
+        <div class="modal-header">
+          <h4 class="modal-title"> Buscar Pet</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Antes de achar o pretendente ideal para o seu pet, faça seu login no TinPet!</p>
+          <img src="../Imagens/cutepets.gif">
+        </div>
+        <div class="modal-footer">
+        <a href="../Principal/Login_resp.php" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);">Fazer Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalsite3" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"> Fale Conosco</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Antes de falar conosco, faça seu login no TinPet!</p>
+          <img src="../Imagens/cute.gif">
+        </div>
+        <div class="modal-footer">
+        <a href="../Principal/Login_resp.php" class="btn btn-dark btn-lg" style="background-color: rgb(160, 134, 87);">Fazer Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="rodape">
+    <div class="finalhome">
+      <img id="icone" src="../Imagens/logo.png" width="200" height="200" style="margin-left: 20px;" align="left"alt="logo do site">
+      <br>
+      <h1>Redes sociais:</h1>
+      <a href="https://www.instagram.com/tinpetcontato/?hl=pt-br" class="fa fa-instagram"></a>
+      <a href="https://twitter.com/TinPetcontato" class="fa fa-twitter"></a>
+      <br><br>
+      Copyright &copy; 2021 - by Gustavo Santos e Mª Eduarda Correia
+    </div>
+    
+  </footer> 
+</body>
+</html>
